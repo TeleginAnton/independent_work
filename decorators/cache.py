@@ -39,7 +39,7 @@ def _bar(a, b):
 
 
 def main():
-    print(foo(1, 2))
+    print(foo(1, 10))
     print(foo(1, 3))
     print(foo(1, 2))
     # print(car(1, 2))
