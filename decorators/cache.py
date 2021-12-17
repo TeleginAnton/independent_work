@@ -4,6 +4,11 @@ from typing import Callable
 
 
 def lru_cache(max_items: int = 10):
+    """
+    some doc string
+    :param max_items:
+    :return:
+    """
     def decorator(fn: Callable):
         cache = OrderedDict()
 
@@ -39,7 +44,7 @@ def _bar(a, b):
 
 
 def main():
-    print(foo(1, 10))
+    print(foo(1, 5))
     print(foo(1, 3))
     print(foo(1, 2))
     # print(car(1, 2))
