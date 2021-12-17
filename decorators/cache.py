@@ -20,7 +20,7 @@ def lru_cache(max_items: int = 10):
     return decorator
 
 
-@lru_cache(max_items=15)
+@lru_cache(max_items=25)
 def foo(a, b):
     sleep(1)
     return a + b
